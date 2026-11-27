@@ -14,7 +14,7 @@ class EqEngine {
         return try {
             val cfg = DynamicsProcessing.Config.Builder(
                 DynamicsProcessing.VARIANT_FAVOR_FREQUENCY_RESOLUTION,
-                2, true, BAND_COUNT, false, 0, false, 0, true
+                2, true, BAND_COUNT, false, 0, false, 0, false
             ).build()
             val dp = DynamicsProcessing(0, session, cfg)
             effects[session] = dp
