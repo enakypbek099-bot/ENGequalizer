@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.ENQ" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/enq_bg</item>
+        <item name="android:statusBarColor">@color/enq_bg</item>
+        <item name="android:navigationBarColor">@color/enq_bg</item>
+    </style>
+</resources>
